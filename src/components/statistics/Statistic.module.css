@@ -1,0 +1,52 @@
+.statistics {
+  margin-top: 30px;
+  max-width: 750px;
+  background-color: rgb(4, 119, 165);
+  font-family: 'Roboto', sans-serif;
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px 0px #000;
+
+  transition: all 250ms ease;
+}
+
+.statistics:hover {
+  transform: scale(1.01);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.title {
+  margin-top: 30px;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.statList {
+  display: flex;
+  background-color: rgb(181, 214, 241);
+  /* list-style: none; */
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  width: 100%;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(8, 8, 8);
+}
+
+.label {
+  font-size: 12px;
+}
+
+.percentage {
+  display: block;
+  font-weight: 600;
+}
