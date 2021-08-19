@@ -1,6 +1,6 @@
 import FriendsCard from './FriendsCard';
 import PropTypes from 'prop-types';
-import s from 'components/friends-list/Friends.module.css';
+import s from './Friends.module.css';
 
 function FriendsList({ friends }) {
   return (
